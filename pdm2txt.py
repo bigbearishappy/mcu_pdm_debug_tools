@@ -7,6 +7,7 @@ def get_sign16(vx):
 
 def pdm2txt(pdm_file, txt_file):
     cnt = 0
+    temp_last='0'
     pcmf = open(pdm_file, 'r')
     txtf = open(txt_file, 'w')
     pcmdata_len = len(pcmf.read())

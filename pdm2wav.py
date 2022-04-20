@@ -3,6 +3,7 @@ import wave
 
 def pcm2wav(pcm_file, wav_file, channels=1, bits=16, sample_rate=16000):
     cnt = 0
+    pcmdata_last='0000'
     pcmf = open(pcm_file, 'r')
     wavfile = wave.open(wav_file, 'wb')
     pcmdata_len = len(pcmf.read())
