@@ -20,7 +20,7 @@ python pdm2wav.py pdm-origin-data.txt pdm-audio.wav
 
 ***ATTENTION:***
 
-Before this, we need to get the data from MCU. Usually we use the uart to get the data. And you can get the demo raw data from [here](www.google.com)
+Before this, we need to get the data from MCU. Usually we use the uart to get the data. And you can get the demo raw data from [here](https://github.com/bigbearishappy/mcu_pdm_debug_tools/blob/main/testdata/pdm-origintxt.txt)
 
 You can use the following demo code to output the raw data
 ```
@@ -40,7 +40,7 @@ And we can use pdm2txt.py to convert the raw data to a float data. This can help
 
 Here is a demo waveform picture of PDM:
 
-![image]( https://github.com/bigbearishappy/sensor_data_chart_display/blob/main/pic/demo.gif)
+![image]( https://github.com/bigbearishappy/mcu_pdm_debug_tools/blob/main/pic/excel_data_analysis.png)
 
 ### wav2pdm.py
 If we want ot get the PDM raw data from a wav file.We can use the wav2pdm.py.
