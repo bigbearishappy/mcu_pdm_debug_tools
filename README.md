@@ -49,4 +49,3 @@ Example:
 ```
 python wav2pdm.py test.wav pdm-raw.bin
 ```
-
